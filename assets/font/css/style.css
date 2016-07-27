@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+#container {
+	width:500px;
+	border: 2px solid #007bbb;
+	margin: 0 auto;
+	padding: 0.8em;
+}
+#header{
+	background-color: #007bbb;
+	color: white;
+	height: 3em; 
+	margin: 0 auto;
+	display: block;
+}
+#header>span{
+	font-size: 2.5em;
+}
+#image {
+	background-color: grey;
+	padding: 0.5em
+}
+
+#image img {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+#title {
+	padding: 0.5em;
+}
+
+#title h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#seekbar-outer {
+	background: transparent;
+	border: 3px solid #007bbb;
+	height: 10px;
+}
+
+#seekbar-inner {
+	height: 10px;
+	background: #007bbb;
+	width: 0%;
+}
+
+#controls-container {
+	display: inline-block;
+	width: 100%;
+}
+
+#controls-container div {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 2em;
+}
+
+#controls-container div span {
+	margin-right: 0.5em;
+}
+
+#playlist ul {
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+#playlist ul li {
+	padding: 0.5em 0em;
+	border-bottom: 1px solid grey;
+	display: inline-block;
+	width: 100%;
+}
+#playlist ul li:last-child {
+	border-bottom: none;
+}
+
+#playlist ul li span:first-child {
+	float:left;
+	margin-left: 0.3em;
+}
+
+#playlist ul li span:last-child {
+	float:right;
+	margin-right: 0.3em;
+	cursor: pointer;
+}
